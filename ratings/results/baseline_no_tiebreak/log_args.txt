@@ -1,0 +1,1 @@
+Namespace(dirname='results/baseline_no_tiebreak', start_row=0, num_processes=100, num_data_points=200, k_val=7, seed=123, explain=False, do_pairwise=False, shuffle=False)

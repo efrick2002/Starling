@@ -1,0 +1,1 @@
+Namespace(dirname='results/pairwise_explain_agreement_explain', start_row=0, num_processes=50, num_data_points=100, k_val=7, seed=101, explain=True, do_pairwise=True, shuffle=False)

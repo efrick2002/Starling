@@ -1,0 +1,1 @@
+Namespace(dirname='results/pointwise_rating_better_prompt', num_processes=100, seed=5, explain=False)
