@@ -1,0 +1,14 @@
+torch==2.3.1
+numpy<2.0.0
+pandas
+tqdm
+huggingface-hub
+transformers==4.39.1
+accelerate==0.30.1
+datasets 
+wandb
+sentencepiece 
+deepspeed==0.14.0
+bitsandbytes
+scipy
+black

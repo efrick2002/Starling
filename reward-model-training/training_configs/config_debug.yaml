@@ -1,0 +1,12 @@
+model_name: "HuggingFaceH4/tiny-random-LlamaForCausalLM"
+learning_rate: 0.00000167
+unfreeze_blocks: "all"   # can also use just use the string "all" "full param"
+data_percentage: 100
+seed: 42
+batch_size: 1
+gradient_accumulation_steps: 20
+warmup_ratio: 0.05
+data_path:  "evanfrick/random_pre"
+max_length: 2000
+deepspeed_config: "ds_configs/ds_config_zero3.json"
+
