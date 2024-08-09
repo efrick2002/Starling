@@ -1,5 +1,5 @@
-model_name: "01-ai/Yi-34B-Chat"
-learning_rate: 0.00000167
+model_name: "meta-llama/Llama-2-7b-chat-hf"
+learning_rate: 0.00001
 unfreeze_blocks: "all"   # can also use just use the string "all" "full param"
 data_percentage: 100
 seed: 42
@@ -8,4 +8,5 @@ gradient_accumulation_steps: 20
 warmup_ratio: 0.05
 data_path:  "evanfrick/random_pre"
 max_length: 2000
-deepspeed_config: "ds_configs/ds_config_zero3.json"
+deepspeed_config: "ds_configs/ds_config_zero1.json"
+
