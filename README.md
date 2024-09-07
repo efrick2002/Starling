@@ -2,7 +2,7 @@
 
 This is the code base for the Starling project from UC Berkeley including:
 
-- Paper: Soon
+- Paper: [Starling-7B: Improving Helpfulness and Harmlessness with RLAIF (COLM 24)](https://openreview.net/pdf?id=GqDntYTTbk)
 - Blog Post: [starling.cs.berkeley.edu](https://starling.cs.berkeley.edu/)
 - LLM: [Starling-LM-7B-alpha](https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha)
 - RM: [Starling-RM-7B-alpha](https://huggingface.co/berkeley-nest/Starling-RM-7B-alpha)
